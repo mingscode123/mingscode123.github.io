@@ -6,11 +6,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings
 title: Mingsdev
 tagline: 권민서의 git blog
-description: >-
+description: >
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
 url: "https://mingscode123github.io"
+baseurl: ""  # If hosted at the root domain e.g. username.github.io, keep this empty.
 
 github:
   username: mingscode123
@@ -23,36 +24,36 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+  google: "" # fill in your Google verification code
+  bing: "" # fill in your Bing verification code
+  alexa: "" # fill in your Alexa verification code
+  yandex: "" # fill in your Yandex verification code
+  baidu: "" # fill in your Baidu verification code
+  facebook: "" # fill in your Facebook verification code
 
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: "" # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: "" # fill in your GoatCounter ID
   umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
+    id: "" # fill in your Umami ID
+    domain: "" # fill in your Umami domain
   matomo:
-    id: # fill in your Matomo ID
-    domain: # fill in your Matomo domain
+    id: "" # fill in your Matomo ID
+    domain: "" # fill in your Matomo domain
   cloudflare:
-    id: # fill in your Cloudflare Web Analytics token
+    id: "" # fill in your Cloudflare Web Analytics token
   fathom:
-    id: # fill in your Fathom Site ID
+    id: "" # fill in your Fathom Site ID
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: "goatcounter" # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
-theme_mode: # [light | dark]
+theme_mode: "light" # [light | dark]
 
 # The CDN endpoint for media resources.
 cdn: "https://chirpy-img.netlify.app"
@@ -61,33 +62,30 @@ cdn: "https://chirpy-img.netlify.app"
 avatar: /assets/img/new_cat_icon_512x512.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /assets/img/social_preview.png
 
 # Global switch for TOC in posts.
 toc: true
 
 comments:
-  provider: # [disqus | utterances | giscus]
+  provider: "disqus" # [disqus | utterances | giscus]
   disqus:
     shortname: "Dodev-HADA"
 
 # Self-hosted static assets, optional
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
-    env: # [development | production]
+    enabled: false # boolean, keep empty means false
+    env: "production" # [development | production]
 
 pwa:
   enabled: true
   cache:
     enabled: true
     deny_paths:
-      # - "/example"
+      - "/example"
 
 paginate: 10
-
-# The base URL of your site
-baseurl: ""
 
 # ------------ Below this line are default settings ------------
 kramdown:
@@ -148,11 +146,4 @@ exclude:
   - "*.config.js"
   - package*.json
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+jekyll-archives
