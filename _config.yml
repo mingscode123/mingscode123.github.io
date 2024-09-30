@@ -11,7 +11,6 @@ description: >
 
 # Fill in the protocol & hostname for your site.
 url: "https://mingscode123github.io"
-baseurl: ""  # If hosted at the root domain e.g. username.github.io, keep this empty.
 
 github:
   username: mingscode123
@@ -53,7 +52,7 @@ pageviews:
   provider: "goatcounter" # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
-theme_mode: "light" # [light | dark]
+theme_mode: light # [light | dark]
 
 # The CDN endpoint for media resources.
 cdn: "https://chirpy-img.netlify.app"
@@ -68,24 +67,27 @@ social_preview_image: /assets/img/social_preview.png
 toc: true
 
 comments:
-  provider: "disqus" # [disqus | utterances | giscus]
+  provider: disqus
   disqus:
     shortname: "Dodev-HADA"
 
 # Self-hosted static assets, optional
 assets:
   self_host:
-    enabled: false # boolean, keep empty means false
-    env: "production" # [development | production]
+    enabled: false
+    env: "production"
 
 pwa:
   enabled: true
   cache:
     enabled: true
     deny_paths:
-      - "/example"
+      # - "/example"
 
 paginate: 10
+
+# The base URL of your site
+baseurl: ""
 
 # ------------ Below this line are default settings ------------
 kramdown:
@@ -146,4 +148,11 @@ exclude:
   - "*.config.js"
   - package*.json
 
-jekyll-archives
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
