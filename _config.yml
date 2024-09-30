@@ -58,7 +58,7 @@ theme_mode: light # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # Avatar settings
-avatar: /assets/img/new_cat_icon_512x512.png
+avatar: /assets/img/profile.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 social_preview_image: /assets/img/social_preview.png
