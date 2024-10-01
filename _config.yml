@@ -116,7 +116,6 @@ author:
   avatar: "/assets/images/덕선프로필.png" # path of avatar image
   bio: "공부 정리용 git blog"
   location: "South Korea"
-  email: "gomgomi09@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -127,9 +126,6 @@ author:
 
 # Site Footer
 footer:
-  - label: "Email"
-    icon: "fas fa-fw fa-envelope-square"
-    url: "mailto:gomgomi09@gmail.com"
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
     url: "https://github.com/mingscode123"
