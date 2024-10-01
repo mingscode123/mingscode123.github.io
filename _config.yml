@@ -113,6 +113,7 @@ author:
   avatar: "/assets/images/덕선프로필.png"
   bio: "공부 정리용 git blog"
   location: "South Korea"
+  email: "gomgomi09@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
