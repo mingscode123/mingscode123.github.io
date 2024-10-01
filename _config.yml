@@ -199,7 +199,8 @@ sass:
   style: compressed
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:title/;
+paginate: 5
 timezone: "Asia/Seoul"
 
 # Pagination with jekyll-paginate
@@ -211,6 +212,24 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+ jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /categories/:name/
+     tag: /tags/:name/
 
 # Defaults
 defaults:
