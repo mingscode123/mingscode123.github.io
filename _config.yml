@@ -30,9 +30,9 @@ copyright_url: "https://mingcode123.github.io"
 
 # Comments
 comments:
-  provider: false # false (default), "disqus", "discourse", "facebook", "staticman", "utterances", "giscus"
+  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "utterances", "giscus"
   disqus:
-    shortname: "" # Add Disqus shortname here if using
+    shortname: "mingscodenote" # Add Disqus shortname here if using
   discourse:
     server: "" # Add Discourse server URL here if using
   facebook:
@@ -219,7 +219,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
       show_date: true
