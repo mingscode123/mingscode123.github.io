@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "PCCE 기출문제"
+title: "PCCE 기출문제 1번"
 categories: coding test
 tag: PCCE 기출문제
 ---
