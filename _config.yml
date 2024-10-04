@@ -85,7 +85,7 @@ google:
 # SEO Related
 google_site_verification:
 bing_site_verification:
-naver_site_verification:
+naver_site_verification: "fa0622a67d866dbac6db8122b63d214534cf7630"
 yandex_site_verification:
 baidu_site_verification:
 
@@ -121,6 +121,7 @@ author:
   location: "South Korea"
   email: "gomgomi09@gmail.com"
   links:
+  
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mingscode123"
