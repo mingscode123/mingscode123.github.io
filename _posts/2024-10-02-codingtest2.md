@@ -4,6 +4,8 @@ title: "PCCE 기출문제 2번"
 categories: coding test
 tag: PCCE 기출문제
 toc: true
+sidebar:
+  nav: "counts"
 ---
 
 # [PCCE 기출문제] 2번 / 피타고라스의 정리
@@ -43,6 +45,8 @@ a2 = 9, c2 = 25 이므로 16을 출력합니다.
 입출력 예 #2
 
 a2 = 81, c2 = 100 이므로 19를 출력합니다.
+
+## 문제풀이
 
 ```
 #include <iostream>

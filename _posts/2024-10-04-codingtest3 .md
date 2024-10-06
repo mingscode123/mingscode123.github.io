@@ -4,6 +4,8 @@ title: "PCCE 기출문제 3번"
 categories: coding test
 tag: PCCE 기출문제
 toc: true
+sidebar:
+  nav: "counts"
 ---
 
 # [PCCE 기출문제] 3번 / 나이 계산
@@ -45,6 +47,8 @@ Year
 입출력 예 #2
 
 2030년에 1999년생의 연 나이는 2030 - 1999 = 31살입니다.
+
+## 문제풀이
 
 ```
 #include <iostream>

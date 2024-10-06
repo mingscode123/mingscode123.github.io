@@ -4,6 +4,8 @@ title: "PCCE 기출문제 1번"
 categories: coding test
 tag: PCCE 기출문제
 toc: true
+sidebar:
+  nav: "counts"
 ---
 
 # [PCCE 기출문제] 1번 / 출력
