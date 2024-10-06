@@ -2,7 +2,7 @@
 layout: single
 title: "자바 개념 정리 (요약) "
 categories: concept_summary
-tag: 개념 정리
+tag: [java, 개념 정리]
 toc: true
 sidebar:
   nav: "counts"

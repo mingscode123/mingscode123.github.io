@@ -2,7 +2,7 @@
 layout: single
 title: "자바스크립트 개념 정리 (요약) "
 categories: concept_summary
-tag: 개념 정리
+tag: [javascript, 개념 정리]
 toc: true
 sidebar:
   nav: "counts"

@@ -2,7 +2,7 @@
 layout: single
 title: "스프링부트 개념 정리 (요약) "
 categories: concept_summary
-tag: 개념 정리
+tag: [springboot, 개념 정리]
 toc: true
 sidebar:
   nav: "counts"
